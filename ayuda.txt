@@ -1,0 +1,10 @@
+/* procedimiento de insertado de un cliente
+
+	1 caso: el cliente se nuevo y se inserte correctamente  --> insertamos normal
+
+	2 caso: el cliente exista y se esta actualiazando 	--> tipoCli = 0  and tipoEmp=1  ||  tipoCli = 0  and tipoEmp=0   ,estado = 2 (eliminado)
+
+	3 caso: existe persona pero como empleado   --> tipoClie= 1 and tipoEmp=0 || tipoClie= 1 and tipoEmp=1
+
+	3 caso: existe pero no como empleado ni cliente  TipoClie= 1  and tipoEmp = 1 [proveedor]
+*/
